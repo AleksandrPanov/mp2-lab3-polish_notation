@@ -1,8 +1,11 @@
-﻿  testLexem.cpp
+﻿  testFuction.cpp
+c:\all\programms\project\mp2-lab3-polish_notation\includes\functions.h(92): warning C4018: <: несоответствие типов со знаком и без знака
+c:\all\programms\project\mp2-lab3-polish_notation\sln\test\testfuction.cpp(253): warning C4018: <: несоответствие типов со знаком и без знака
   Создание кода...
   Компиляция...
-  testFuction.cpp
-c:\все-все)\programms\project\mp2-lab3-polish_notation2.0 релиз\includes\functions.h(88): warning C4018: <: несоответствие типов со знаком и без знака
-c:\все-все)\programms\project\mp2-lab3-polish_notation2.0 релиз\sln\test\testfuction.cpp(253): warning C4018: <: несоответствие типов со знаком и без знака
+  testStack.cpp
+  testList.cpp
+c:\all\programms\project\mp2-lab3-polish_notation\sln\test\testlist.cpp(27): warning C4101: ar: неиспользованная локальная переменная
+  testLexem.cpp
   Создание кода...
-  test.vcxproj -> C:\Все-все)\programms\Project\mp2-lab3-polish_notation2.0 релиз\sln\Debug\test.exe
+  test.vcxproj -> C:\All\programms\Project\mp2-lab3-polish_notation\sln\Debug\test.exe

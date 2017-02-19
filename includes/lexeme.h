@@ -4,7 +4,6 @@
 #include <iostream>
 #include <string>
 #include <math.h>
-#include <winbase.h>
 using namespace std;
 
 class Lexeme
@@ -84,6 +83,14 @@ public:
 	{
 		return  ar[name[0]-'a'];
 	}
+	static void blockVar(char var)
+	{
+		isVar[var - 'a'] = false;
+	}
+	static void setVar(char var, double val)
+	{
+		ar[var - 'a'] = val;
+	}
 	static void clear()
 	{
 		for (int i = 0; i < 26; i++)
@@ -93,9 +100,7 @@ public:
 		}
 	}
 };
-/*double LexemeVar::ar[26] = { 1,1,1,1,1, 1,1,1,1,1, 1,1,1,1,1, 1,1,1,1,1, 1,1,1,1,1, 1};
-int LexemeVar::count = 0;
-bool LexemeVar::isVar[26] = {0};*/
+
 class LexemeOper : public Lexeme
 {
 protected:
